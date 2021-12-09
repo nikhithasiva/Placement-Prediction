@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Placement Prediction</title>
+</head>
+
+<body style="background-color:lightgrey;">
+
+ 
+
+        <!-- Form -->
+        <h2 class='text-center'><strong>Campus Placement Predictor</strong></h2>
+        <div class="container my-4">
+            <form action="/" method="POST">
+
+                <!-- Gender -->
+                <div class="form-group">
+                    <label for="gender"><b>Gender</b></label>
+                    <select class="form-control" id="gender" name="gender">
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+                </div>
+
+                <!-- Specialisation -->
+                <div class="form-group">
+                    <label for="spec"><b>Specialization</b></label>
+                    <select class="form-control" id="spec" name="spec">
+                            <option value="1">Marketing and Human Resources</option>
+                            <option value="0">Marketing and Finance</option>
+                        </select>
+                </div>
+
+                <!-- Technical Degree -->
+                <div class="form-group">
+                    <label for="tech"><b>Techinal Degree</b></label>
+                    <select class="form-control" id="tech" name="tech">
+                            <option value="0">Commerce and Management</option>
+                            <option value="1">Others</option>
+                            <option value="2">Science and Technology</option>
+                        </select>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="form-group">
+                    <label for="work"><b>Work Experience ?</b></label>
+                    <select class="form-control" id="work" name="work">
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                </div>
+
+                <!-- SSC_P -->
+
+                <div class="form-group">
+                    <label for="ssc"><b>Junior School Percentage</b></label>
+                    <input type="text" class="form-control" id="ssc" name="ssc">
+                </div>
+
+                <!-- HighSchool_P -->
+                <div class="form-group">
+                    <label for="hsc"><b>High School Percentage</b></label>
+                    <input type="text" class="form-control" id="hsc" name="hsc">
+                </div>
+
+                <!-- Degree_P -->
+                <div class="form-group">
+                    <label for="dsc"><b>Degree Percentage</b></label>
+                    <input type="text" class="form-control" id="dsc" name="dsc">
+                </div>
+
+                <!-- MBA_P -->
+                <div class="form-group">
+                    <label for="mba"><b>MBA Percentage</b></label>
+                    <input type="text" class="form-control" id="mba" name="mba">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Predict</button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
